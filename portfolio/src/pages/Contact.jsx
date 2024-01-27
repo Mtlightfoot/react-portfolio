@@ -1,5 +1,7 @@
 function Contact() {
-    return <div>This is the contact page</div>
+    return <div className="pageBorder container-lg">
+        bruh
+    </div>
 }
 
 export default Contact;
