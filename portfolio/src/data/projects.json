@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Travel Fanatix",
         "description": "A web app that gets details about a city, has a planner and gives activity recommendations.",
-        "image": "../images/travel-fanatix.png",
+        "image": "./assets/travel-fanatix.png",
         "skills": "HTML - CSS - JavaScript - JSON - Web Apis - JQuery",
         "site": "https://mtlightfoot.github.io/travel-fanatix/",
         "repo": "https://github.com/Mtlightfoot/travel-fanatix"

@@ -15,7 +15,7 @@ function Project(props) {
     // Body
     return <div className="col-lg-4 mb-3">
         <div className="card" style={styles.projectCard}>
-            <img className="card-img-top" src={imageUrl} alt="Card image cap" />
+            <img className="card-img-top" src={props.image} alt="Card image cap" />
             <div className="card-body mx-auto">
                 <h5 className="card-title">{props.title}</h5>
                 <div className="card-subtitle mb-2 text-body-secondary">{props.skills}</div>

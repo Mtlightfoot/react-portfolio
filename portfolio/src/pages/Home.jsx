@@ -53,11 +53,11 @@ function Home() {
                 </div>
                 <div className="row col-6 mx-auto container-lg mt-4">
 
-                    <img src={Linkedin} alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src={Github} alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src={Resume} alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src={Email} alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src={Phone} alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
+                    <img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} className="col" />
+                    <img src="./assets/github.svg" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
+                    <img src="./assets/resume.png" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
+                    <img src="./assets/email.png" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
+                    <img src="./assets/phone.svg" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
 
 
                 </div>
@@ -66,7 +66,7 @@ function Home() {
             <div className="col-lg-4 mainCol my-auto">
                 <div className="card noBackground noBorder" style={styles.homeTextBig}>
                     <div className="card-body">
-                        <img src={Headshot} alt="A headshot picture of myself" style={styles.headshot} />
+                        <img src="./assets/profile-picture.jpg" alt="A headshot picture of myself" style={styles.headshot} />
                     </div>
                 </div></div>
         </main>
