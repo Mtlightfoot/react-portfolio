@@ -18,7 +18,7 @@ function Header() {
 
             <nav className="mt-3 navbar navbar-expand-lg navbar-light" style={styles.navBar}>
                 <div className="container-fluid px-4">
-                    <h2 style={styles.headerTitle}>Matthew Lightfoot. <h5>Front-End Web Developer</h5></h2>
+                    <h2 style={styles.headerTitle}>Matthew Lightfoot. <span><h5>Front-End Web Developer</h5></span></h2>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
