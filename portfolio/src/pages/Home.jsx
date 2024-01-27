@@ -1,10 +1,10 @@
-import Headshot from '/images/profile-picture.jpg';
-import Linkedin from '/images/linkedin.svg';
-import Email from '/images/email.png';
-import Phone from '/images/phone.svg';
-import Resume from '/images/resume.png';
-import Github from '/images/github.svg';
-import '/src/styles/style.css';
+import Headshot from '../images/profile-picture.jpg';
+import Linkedin from '../images/linkedin.svg';
+import Email from '../images/email.png';
+import Phone from '../images/phone.svg';
+import Resume from '../images/resume.png';
+import Github from '../images/github.svg';
+import '../styles/style.css';
 
 const styles = {
     homeTextBig: {

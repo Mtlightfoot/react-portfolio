@@ -4,12 +4,10 @@ import projects from '../data/projects.json';
 function ProjectsGallery() {
     // Body
     return <div className="pageBorder container-lg">
-        <div>This is list of my past projects
-            <div>
-                {projects.map((project) => {
-                    return <Project key={project.id} title={project.title} description={project.description} />;
-                })}
-            </div>
+        <div className="row mt-5 mb-5 text-center">
+            {projects.map((project) => {
+                return <Project key={project.id} title={project.title} description={project.description} skills={project.skills} image={project.image} site={project.site} repo={project.repo}/>;
+            })}
         </div>
     </div>
 }
