@@ -6,9 +6,10 @@ import Home from './pages/Home';
 import ProjectsGallery from './pages/ProjectsGallery';
 import Contact from './pages/Contact';
 import React from 'react';
+import './styles/style.css'
 
 function App() {
-  return <Router>
+  return <div className="page"><Router>
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -17,7 +18,7 @@ function App() {
 
     </Routes>
   </Router>
-
+  </div>
 }
 
 export default App

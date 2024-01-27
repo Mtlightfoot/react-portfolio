@@ -1,0 +1,44 @@
+.page {
+    background-color: #DDD0C8;
+    min-height: 100vh;
+    color: #323232;
+}
+
+.pageBorder {
+    border-bottom: 2px solid #AD974F;
+}
+
+.underline {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #AD974F;
+}
+
+.noBackground {
+    background: transparent;
+}
+
+.noBorder {
+    border:none
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+    font-weight: 700;
+}
+
+.backgroundImage {
+    background-image: url(../img/matt-landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
