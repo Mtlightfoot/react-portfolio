@@ -35,7 +35,7 @@
 }
 
 .backgroundImage {
-    background-image: url(/src/img/matt-landscape.jpg);
+    background-image: url(/img/matt-landscape.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,9 +1,9 @@
-import Headshot from '/src/img/profile-picture.jpg';
-import Linkedin from '/src/img/linkedin.svg';
-import Email from '/src/img/email.png';
-import Phone from '/src/img/phone.svg';
-import Resume from '/src/img/resume.png';
-import Github from '/src/img/github.svg';
+import Headshot from '/img/profile-picture.jpg';
+import Linkedin from '/img/linkedin.svg';
+import Email from '/img/email.png';
+import Phone from '/img/phone.svg';
+import Resume from '/img/resume.png';
+import Github from '/img/github.svg';
 import '/src/styles/style.css';
 
 const styles = {
