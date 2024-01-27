@@ -1,8 +1,7 @@
-import data from '../data/projects.json';
-
 const styles = {
     projectCard: {
-        minHeight: '300px'
+        minHeight: '300px',
+        boxShadow: '3px 3px 15px rgba(0, 0, 0, 0.4)'
     },
     cardBtn: {
         margin: '5px',
@@ -11,7 +10,6 @@ const styles = {
 }
 
 function Project(props) {
-    const imageUrl = data.image
     // Body
     return <div className="col-lg-4 mb-3">
         <div className="card" style={styles.projectCard}>

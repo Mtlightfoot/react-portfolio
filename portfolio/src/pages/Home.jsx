@@ -1,9 +1,3 @@
-import Headshot from '../images/profile-picture.jpg';
-import Linkedin from '../images/linkedin.svg';
-import Email from '../images/email.png';
-import Phone from '../images/phone.svg';
-import Resume from '../images/resume.png';
-import Github from '../images/github.svg';
 import '../styles/style.css';
 
 const styles = {
@@ -28,7 +22,7 @@ const styles = {
     backgroundText: {
         filter: 'drop-shadow(1px 2px 0rem #323232)'
     },
-    contactIcons: {
+    contactIconsHover: {
     }
 }
 
@@ -52,14 +46,11 @@ function Home() {
                     </div>
                 </div>
                 <div className="row col-6 mx-auto container-lg mt-4">
-
-                    <img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} className="col" />
-                    <img src="./assets/github.svg" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src="./assets/resume.png" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src="./assets/email.png" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-                    <img src="./assets/phone.svg" alt="A headshot picture of myself" style={styles.contactIcons} className="col" />
-
-
+                    <a href="https://www.linkedin.com/in/matthew-lightfoot-5aba00b8" className="col contactIcons" target="_blank"><img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} /></a>
+                    <a href="https://github.com/Mtlightfoot" className="col contactIcons"><img src="./assets/github.svg" alt="An icon of a Github Logo" style={styles.contactIcons} /></a>
+                    <a href="https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit?usp=sharing" className="col contactIcons"><img src="./assets/resume.png" alt="An icon of a Resume" style={styles.contactIcons} /></a>
+                    <a href="mailto: m-lightfoot@hotmail.com" className="col contactIcons"><img src="./assets/email.png" alt="An icon of an email" style={styles.contactIcons} /></a>
+                    <a href="tel:07801963340" className="col contactIcons"><img src="./assets/phone.svg" alt="An icon of a phone" style={styles.contactIcons} /></a>
                 </div>
 
             </div>
