@@ -34,7 +34,7 @@ const styles = {
 
 function Home() {
     return <div className="pageBorder container-lg">
-        <div className="row mx-auto container-lg backgroundImage mt-4">
+        <div className="row mx-auto container-lg backgroundImage mt-4" style={{ backgroundImage: "url(./assets/matt-landscape.jpg)" }}>
             <div className="card noBackground noBorder" style={styles.homeTextBig}>
                 <div className="card-body col-9 justify-content-center" style={styles.backgroundText}>
                     <h1>Crafting seamless and captivating digital experiences through innovative front-end development</h1>
