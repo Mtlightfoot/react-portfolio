@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const styles = {
     projectCard: {
         minHeight: '300px',
@@ -10,6 +12,7 @@ const styles = {
 }
 
 function Project(props) {
+    console.log(props)
     // Body
     return <div className="col-lg-4 mb-3">
         <div className="card" style={styles.projectCard}>
@@ -21,8 +24,10 @@ function Project(props) {
                 <p className="card-text">{props.description}</p>
                 <a href={props.site} className="btn btn-primary col-5" style={styles.cardBtn}>Go to Project</a>
 
-                <a href={props.repo} className="btn btn-primary col-5" style={styles.cardBtn}>View Repo</a></div>
+                <a href={props.repo} className="btn btn-primary col-5" style={styles.cardBtn}>View Repo</a>
 
+                <a href={props.repo} className="btn btn-primary col-5" style={styles.cardBtn}><NavLink className="nav-link" to="/project-details" end>More Details</NavLink></a>
+            </div>
         </div>
     </div>
 }
