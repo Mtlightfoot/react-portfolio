@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// The styles used for the contact form
 const styles = {
     contactLink: {
         boxShadow: '3px 3px 15px rgba(0, 0, 0, 0.4)',
@@ -31,7 +32,7 @@ function Form() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         event.preventDefault();
 
-        // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
+        // Alerts the user their name, subject and message. Also clears the `formData.name`, `formData.subject and `formData.message` inputs
         alert(`Hello ${formData.name}! Thank you for your message about ${formData.subject}. Please find a review of your message here: ${formData.message}`);
         setFormData({
             name: '',
@@ -40,7 +41,7 @@ function Form() {
         });
     };
 
-    // Notice how each input has a `value`, `name`, and `onChange` prop
+    // Each input has a `value`, `name`, and `onChange` prop, the value sets the form data that is uses to alert the user
     return (
         <div>
             <form className="form">

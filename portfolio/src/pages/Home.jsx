@@ -1,5 +1,6 @@
 import '../styles/style.css';
 
+// The styling for the homepage of the website
 const styles = {
     homeTextBig: {
         fontWeight: '700',
@@ -26,6 +27,7 @@ const styles = {
     }
 }
 
+// This is the function that renders the home page using the header and navbar form header.jsx and also various images from public/assets
 function Home() {
     return <div className="pageBorder container-lg">
         <div className="row mx-auto container-lg backgroundImage mt-4" style={{ backgroundImage: "url(./assets/matt-landscape.jpg)" }}>

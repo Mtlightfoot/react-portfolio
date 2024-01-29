@@ -1,5 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import projects from "../data/projects.json";
 
+// The styling for the individual project cards
 const styles = {
     projectCard: {
         minHeight: '300px',
@@ -7,13 +10,24 @@ const styles = {
     },
     cardBtn: {
         margin: '5px',
-        padding: '12px'
+        padding: '12px',
+        backgroundColor: '#AD974F'
     }
 }
 
+// The code for the individual project cards, props grabs the information for the project cards from the array of objects in data/projects.json
 function Project(props) {
-    console.log(props)
-    // Body
+
+    let { id } = useParams()
+    const [moreDetails, setMoreDetails] = useState(null)
+    useEffect(() => {
+
+        const project = projects.find(p => p.id === id)
+        if (project) {
+            setMoreDetails(project)
+        }
+    }, [id])
+    console.log(projects)
     return <div className="col-lg-4 mb-3">
         <div className="card" style={styles.projectCard}>
             <img className="card-img-top" src={props.image} alt="Card image cap" />
@@ -26,7 +40,7 @@ function Project(props) {
 
                 <a href={props.repo} className="btn btn-primary col-5" style={styles.cardBtn}>View Repo</a>
 
-                <a href={props.repo} className="btn btn-primary col-5" style={styles.cardBtn}><NavLink className="nav-link" to="/project-details" end>More Details</NavLink></a>
+                <Link className="nav-link" style={styles.cardBtn} to={moreDetails ? `/project-details/${moreDetails.id}` : "#"}>More Details</Link>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
+// The styling used for the header and navbar on every page of the website
 const styles = {
     headerTitle: {
         fontWeight: '700'
@@ -12,6 +13,7 @@ const styles = {
     }
 }
 
+// The header and navbar code, the code also includes a hamburger icon for when the screen goes below a large screen
 function Header() {
     return (
         <header className="row mx-auto justify-content-center container-lg">

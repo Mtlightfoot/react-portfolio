@@ -1,6 +1,7 @@
 import Form from '../components/Form';
 import Project from '../components/Project';
 
+// The styling for the contact me page
 const styles = {
     contactLink: {
         boxShadow: '3px 3px 15px rgba(0, 0, 0, 0.4)',
