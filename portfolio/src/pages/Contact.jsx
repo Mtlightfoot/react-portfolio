@@ -1,3 +1,6 @@
+import Form from '../components/Form';
+import Project from '../components/Project';
+
 const styles = {
     contactLink: {
         boxShadow: '3px 3px 15px rgba(0, 0, 0, 0.4)',
@@ -11,20 +14,7 @@ function Contact() {
         <div className="row mt-3 mb-5">
             <div className="col-lg-6 mb-3">
                 <h2 className="underline pb-3 mb-3">Contact Me</h2>
-                <form>
-                    <div className="form-group">
-                        <label for="exampleFormControlInput1">Your Name</label>
-                        <input style={styles.contactLink} type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
-                    </div>
-                    <div className="form-group">
-                        <label for="exampleFormControlInput1">Subject</label>
-                        <input style={styles.contactLink} type="email" className="form-control" id="exampleFormControlInput1" placeholder="Subject of your Message" />
-                    </div>
-                    <div className="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea style={styles.contactLink} className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message"></textarea>
-                    </div>
-                </form>
+                <Form />
             </div>
             <div className="col-lg-6">
                 <h2 className="underline pb-3 mb-3">Places you can find me</h2>
