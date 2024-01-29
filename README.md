@@ -22,7 +22,9 @@ To use the Portfolio website you can click one of the selections in the Navbar t
 
 ## Screenshot
 ![ScreenShot](./assets/screenshot-1.png)
+![ScreenShot](./assets/screenshot-2.png)
 ![ScreenShot](./assets/screenshot-3.png)
+![ScreenShot](./assets/screenshot-4.png)
 
 ## License
 Ths project is licensed under the MIT license.

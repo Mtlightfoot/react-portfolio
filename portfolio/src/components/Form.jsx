@@ -46,7 +46,7 @@ function Form() {
         <div>
             <form className="form">
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">Your Name</label>
+                    <label>Your Name</label>
                     <input
                         style={styles.contactLink}
                         name="name"
@@ -57,7 +57,7 @@ function Form() {
                         placeholder="Your Name" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">Subject</label>
+                    <label>Subject</label>
                     <input
                         style={styles.contactLink}
                         name="subject"
@@ -68,7 +68,7 @@ function Form() {
                         placeholder="Subject of your Message" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlTextarea1">Message</label>
+                    <label>Message</label>
                     <textarea
                         style={styles.contactLink}
                         name="message"

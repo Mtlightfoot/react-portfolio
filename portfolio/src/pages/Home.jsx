@@ -23,7 +23,11 @@ const styles = {
     backgroundText: {
         filter: 'drop-shadow(1px 2px 0rem #323232)'
     },
-    contactIconsHover: {
+    paragraphHeading: {
+        fontSize: '2.5em',
+        fontWeight: '700',
+        color: '#AD974F',
+        filter: 'drop-shadow(1px 2px 0rem #eaeaea)'
     }
 }
 
@@ -41,13 +45,13 @@ function Home() {
         <main className="row mx-auto container-lg">
             <div className="col-lg-8 mainCol my-auto">
                 <div className="card noBackground underline pb-4" style={styles.homeTextMedium}>
-                    <div className="card-body">
-                        <h4>Welcome to my Portfolio!
+                    <div className="card-body text-center">
+                        <h4><span style={styles.paragraphHeading}>Welcome to my Portfolio!</span>
                             <br></br><br></br>
                             A showcase of my journey as an aspiring Front-End Web Developer, featuring a collection of projects of mine that demonstrate my passion for creating interactive and visually appealing websites.</h4>
                     </div>
                 </div>
-                <div className="row col-6 mx-auto container-lg mt-4">
+                <div className="row mt-4 mb-3 text-center">
                     <a href="https://www.linkedin.com/in/matthew-lightfoot-5aba00b8" className="col contactIcons" target="_blank"><img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} /></a>
                     <a href="https://github.com/Mtlightfoot" className="col contactIcons"><img src="./assets/github.svg" alt="An icon of a Github Logo" style={styles.contactIcons} /></a>
                     <a href="https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit?usp=sharing" className="col contactIcons"><img src="./assets/resume.png" alt="An icon of a Resume" style={styles.contactIcons} /></a>
@@ -56,7 +60,7 @@ function Home() {
                 </div>
 
             </div>
-            <div className="col-lg-4 mainCol my-auto">
+            <div className="col-lg-4 mainCol">
                 <div className="card noBackground noBorder" style={styles.homeTextBig}>
                     <div className="card-body">
                         <img src="./assets/profile-picture.jpg" alt="A headshot picture of myself" style={styles.headshot} />

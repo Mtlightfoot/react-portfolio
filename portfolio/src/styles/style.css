@@ -54,3 +54,21 @@
     scale: 1.1;
     transition: 0.2s;
 }
+
+.projectBtn {
+    margin: 5px;
+    padding: 12px;
+    background-color: #AD974F;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    width: 250px
+}
+
+.projectBtn:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: #bfa85c;
+    color: #323232;
+}

@@ -14,13 +14,8 @@ const styles = {
     }
 }
 
+// This function is responsible for finding the id of the project, when a user clicks more details on a project this function will take them to a new page showing more details on that project
 function ProjectDetails() {
-
-    // let params = useParams();
-    // let projectDetails = projects.filter((project) =>
-    //     project.id === params.id ? project : null
-    // );
-    // console.log(params)
     let { id } = useParams();
     const [details, setDetails] = useState({})
     useEffect(() => {
@@ -40,9 +35,9 @@ function ProjectDetails() {
                         <div className="card-subtitle mb-2 text-body-secondary">{details.skills}</div>
 
                         <p className="card-text">{details.description}</p>
-                        <a href={details.site} className="btn btn-primary col-5" style={styles.cardBtn}>Go to Project</a>
+                        <a href={details.site} className="btn projectBtn col-5" style={styles.cardBtn}>Go to Project</a>
 
-                        <a href={details.repo} className="btn btn-primary col-5" style={styles.cardBtn}>View Repo</a>
+                        <a href={details.repo} className="btn projectBtn col-5" style={styles.cardBtn}>View Repo</a>
 
                     </div>
                 </div>
