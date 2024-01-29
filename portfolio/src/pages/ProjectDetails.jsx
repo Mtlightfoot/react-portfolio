@@ -1,6 +1,6 @@
-import Project from '../components/Project';
 import projects from '../data/projects.json';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import React from 'react';
 import { useState, useEffect } from 'react';
 
 const styles = {
@@ -15,12 +15,16 @@ const styles = {
 }
 
 function ProjectDetails() {
-    console.log()
 
-    let { id } = useParams()
-    const [details, setDetails] = useState(null)
+    // let params = useParams();
+    // let projectDetails = projects.filter((project) =>
+    //     project.id === params.id ? project : null
+    // );
+    // console.log(params)
+    let { id } = useParams();
+    const [details, setDetails] = useState({})
     useEffect(() => {
-        const project = projects.find(p => p.id === id)
+        const project = projects.find(p => p.id === Number(id))
         setDetails(project)
     }, [id])
 
