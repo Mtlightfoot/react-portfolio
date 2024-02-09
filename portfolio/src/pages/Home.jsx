@@ -18,7 +18,8 @@ const styles = {
     },
     headshot: {
         width: '100%',
-        borderRadius: '50px'
+        borderRadius: '200px',
+        filter: 'drop-shadow(2px 4px 0rem #eaeaea)'
     },
     backgroundText: {
         filter: 'drop-shadow(1px 2px 0rem #323232)'
