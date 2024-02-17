@@ -53,7 +53,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row mt-4 mb-3 text-center">
-                    <a href="https://www.linkedin.com/in/matthew-lightfoot-5aba00b8" className="col contactIcons" target="_blank"><img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} /></a>
+                    <a href="https://www.linkedin.com/in/matthew-lightfoot" className="col contactIcons" target="_blank"><img src="./assets/linkedin.svg" alt="An icon of a Linkedin Logo" style={styles.contactIcons} /></a>
                     <a href="https://github.com/Mtlightfoot" className="col contactIcons"><img src="./assets/github.svg" alt="An icon of a Github Logo" style={styles.contactIcons} /></a>
                     <a href="https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit?usp=sharing" className="col contactIcons"><img src="./assets/resume.png" alt="An icon of a Resume" style={styles.contactIcons} /></a>
                     <a href="mailto: m-lightfoot@hotmail.com" className="col contactIcons"><img src="./assets/email.png" alt="An icon of an email" style={styles.contactIcons} /></a>

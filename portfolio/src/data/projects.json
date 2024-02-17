@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "title": "Cure My Boredom",
+        "description": "Your go-to destination for staying informed, entertained, and inspired! This app seamlessly combines local news updates, effortless article searches, a variety of boredom-busting activities, and the excitement of discovering random movies and books, all within a user-friendly interface. This project was made using React, various libraries, Material UI and APIs.",
+        "image": "./assets/1.png",
+        "skills": "React.js - Node.js - Material UI - HTML - CSS - JavaScript - Web Apis",
+        "site": "https://curemyboredom.netlify.app/",
+        "repo": "https://github.com/Mtlightfoot/cure-my-boredom"
+    },
+    {
+        "id": 2,
         "title": "Travel Fanatix",
         "description": "A daily travel planner that can get details about a city, has a planner and also gives nearby activity recommendations.",
         "image": "./assets/travel-fanatix.png",
@@ -9,7 +18,7 @@
         "repo": "https://github.com/Mtlightfoot/travel-fanatix"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Poster Fusion 9",
         "description": "A web app that lets you choose nine of your favourite movies and creates the ultimate movie poster out of the nine film posters",
         "image": "./assets/poster-fusion.png",
@@ -18,7 +27,7 @@
         "repo": "https://github.com/Mtlightfoot/favourite-movies"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Weather Dashboard",
         "description": "A weather dashboard that lets you type in a city and it will give you the current and also the 5 day forecast for that City",
         "image": "./assets/weather-dashboard.png",
@@ -27,22 +36,13 @@
         "repo": "https://github.com/Mtlightfoot/weather-dashboard"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Timed Coding Quiz",
         "description": "A timed coding quiz with multiple questions that saves your scores and keeps them in a leader board table",
         "image": "./assets/coding-quiz.png",
         "skills": "HTML - CSS - JavaScript - JSON",
         "site": "https://mtlightfoot.github.io/coding-quiz/",
         "repo": "https://github.com/Mtlightfoot/coding-quiz"
-    },
-    {
-        "id": 5,
-        "title": "Etch-A-Sketch",
-        "description": "An Etch-A-Sketch app where you can choose the amount of pixels on the screen and randomise the pixel colour",
-        "image": "./assets/etch-a-sketch.png",
-        "skills": "HTML - CSS - JavaScript",
-        "site": "https://mtlightfoot.github.io/etch-a-sketch/",
-        "repo": "https://github.com/Mtlightfoot/etch-a-sketch"
     },
     {
         "id": 6,
